@@ -1,0 +1,87 @@
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Node & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+frontend/dist/
+frontend/dist-ssr/
+*.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# Databases & Runtime Artifacts
+*.db
+*.sqlite
+*.sqlite3
+test_agent.db
+test_agent.db-shm
+test_agent.db-wal
+
+# Playwright & Browser Dumps
+playwright-report/
+test-results/
+.playwright/
+
+# Editor & System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+
+# Large Evidence Dumps (keep artifacts directory structure but exclude ephemeral media)
+artifacts/screenshots/
+artifacts/*/*.png
+artifacts/*/*.html
